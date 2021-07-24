@@ -15,8 +15,8 @@ set undofile
 set undofile
 set incsearch
 
-set colorcolumn=80
-highlight ColorColumn ctermbg=darkgray guibg=darkgray
+" set colorcolumn=120
+" highlight ColorColumn ctermbg=darkgray guibg=darkgray
 
 set signcolumn=yes
 
