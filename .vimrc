@@ -22,13 +22,7 @@ set signcolumn=yes
 
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
-Plug 'jremmen/vim-ripgrep'
-Plug 'tpope/vim-fugitive'
-Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
-Plug 'kien/ctrlp.vim'
-Plug 'Valloric/YouCompleteMe'
-Plug 'mbbill/undotree'
 call plug#end()
 
 colorscheme gruvbox
@@ -42,6 +36,4 @@ inoremap [ []<left>
 inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
-
-let g:ycm_autoclose_preview_window_after_completion = 1
 
